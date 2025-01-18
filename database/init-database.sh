@@ -7,5 +7,5 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
     CREATE SCHEMA IF NOT EXISTS igs_reactivation;
     CREATE SCHEMA IF NOT EXISTS igs_kis;
     CREATE SCHEMA IF NOT EXISTS igs_casco;
-    CREATE SCHEMA IF NOT EXISTS sravni;
+    CREATE SCHEMA IF NOT EXISTS integration_sravni_kasco;
 EOSQL
